@@ -121,4 +121,4 @@ def clear_dir(folder):
             elif os.path.isdir(file_path):
                 rmtree(file_path)
         except Exception as e:
-            raise e
+            raise
